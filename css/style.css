@@ -1,11 +1,11 @@
 /* common css */
 :root {
-  --primary-color: #9a4ff0;
-  --light: #f3edfea6;
-  --text: #0a0426;
+  --primary-color: #9828fa;
+  --light: #f5fffa;
+  --text: #040404;
   --white: #fff;
-  --highlightColor: #ff6655;
-  --gray: #959595;
+  --highlightColor: #ec805c;
+  --gray: #999991;
   --shadow:
     rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51, 0.16) 0px 0px 0px 3px;
 }
@@ -48,4 +48,49 @@ header {
   z-index: 9999;
   background: var(--white);
   box-shadow: var(--shadow);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo .bx {
+  font-size: 30px;
+  color: var(--highlightColor);
+  vertical-align: sub;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: var(--primary-color);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: var(--primary-color);
+  display: block;
 }
