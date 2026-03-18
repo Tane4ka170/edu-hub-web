@@ -169,4 +169,103 @@ nav a.active {
 }
 
 .stats {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  width: 190px;
+}
+.card img {
+  width: 70px;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card p {
+  margin-bottom: 0;
+}
+
+.hero-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-images {
+  padding-top: 70px;
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+.hero-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -45px;
+}
+
+.heroImage {
+  position: relative;
+  z-index: 1;
+  max-width: 520px;
+}
+
+.heroIcon1,
+.heroIcon2,
+.heroIcon3 {
+  position: absolute;
+  z-index: 2;
+}
+.heroIcon1 {
+  left: 50px;
+  top: 100px;
+  animation: slideDown 1s ease-in-out infinite alternate;
+}
+.heroIcon2 {
+  right: 0;
+  bottom: 50px;
+  animation: slideRight1 1s ease-in-out infinite alternate;
+}
+.heroIcon3 {
+  left: 0;
+  bottom: 0;
+  animation: slideDown1 1s ease-in-out infinite alternate;
+}
+
+@keyframes slideDown {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 120px;
+  }
+}
+@keyframes slideDown1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+@keyframes slideRight1 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 20px;
+  }
 }
