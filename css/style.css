@@ -572,3 +572,45 @@ nav a.active {
   vertical-align: middle;
   height: 27px;
 }
+
+/* Banner */
+.banner {
+  padding: 120px 20px;
+}
+
+.banner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #e0d9f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+.banner-left {
+  flex: 1;
+}
+
+.banner-right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.dots {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(var(--primary-color) 2px, transparent 2px);
+  background-size: 20px 20px;
+}
+
+.bannerImage {
+  max-width: 420px;
+  width: 100%;
+  margin-left: 120px;
+  padding: 50px;
+}
