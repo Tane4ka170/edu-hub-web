@@ -652,3 +652,88 @@ nav a.active {
   font-size: 14px;
   color: var(--primary-color);
 }
+
+/* Newsletter */
+.subscribe-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 120px 0px;
+  background: #032f6e;
+  border-radius: 14px;
+  position: relative;
+  text-align: center;
+}
+.subscribe-wrapper h2 {
+  color: var(--white);
+  font-size: 34px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.subscribe-wrapper p {
+  color: #ccd5e2;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 420px;
+  margin: auto;
+  background: #022a63;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.subscribe-form input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--white);
+}
+.subscribe-form input::placeholder {
+  background: var(--primary-color);
+  border: none;
+  padding: 14px 24px;
+  color: var(--white);
+  cursor: pointer;
+}
+.avatar {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--white);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.a1 {
+  top: 20px;
+  left: 40px;
+}
+.a2 {
+  top: 90px;
+  left: 120px;
+}
+.a3 {
+  bottom: 30px;
+  left: 60px;
+}
+.a4 {
+  top: 25px;
+  right: 40px;
+}
+.a5 {
+  top: 110px;
+  right: 120px;
+}
+.a6 {
+  bottom: 30px;
+  right: 60px;
+}
