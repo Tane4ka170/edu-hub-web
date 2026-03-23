@@ -614,3 +614,41 @@ nav a.active {
   margin-left: 120px;
   padding: 50px;
 }
+
+/* Team section */
+.teamSection {
+  padding: 0px 20px 120px 0px;
+}
+
+.team {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-card {
+  width: 260px;
+  background: var(--white);
+  padding: 14px;
+  border-radius: 18px;
+}
+.team-card img {
+  width: 100%;
+  border-radius: 18px;
+  display: block;
+}
+
+.info {
+  margin-top: 12px;
+  text-align: center;
+  padding: 18px 10px;
+  border-radius: 14px;
+}
+.info h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.info p {
+  font-size: 14px;
+  color: var(--primary-color);
+}
