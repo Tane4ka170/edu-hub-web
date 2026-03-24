@@ -737,3 +737,39 @@ nav a.active {
   bottom: 30px;
   right: 60px;
 }
+
+/* Blog */
+.blogSection {
+  padding: 100px 0;
+}
+
+.blog-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-card {
+  background: var(--white);
+  border-radius: 14px;
+  width: 350px;
+  box-shadow: var(--shadow);
+  padding: 30px;
+}
+.blog-card img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+.blog-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.meta {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: var(--highlightColor);
+  margin-bottom: 20px;
+}
