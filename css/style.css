@@ -878,3 +878,61 @@ footer {
   margin-top: 6px;
   color: var(--white);
 }
+
+/* Responsive screen  */
+@media (max-width: 900px) {
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    flex-direction: column;
+    padding: 20px;
+    display: none;
+  }
+  nav.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hero-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .search {
+    width: 100%;
+  }
+  .stats {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section-title h2 {
+    font-size: 34px;
+  }
+  .small-video {
+    left: -10px;
+    bottom: 25px;
+  }
+  .small-video img {
+    width: 100px;
+  }
+  .categoriesCard {
+    flex: 1 1 calc(100% - 30px);
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .course-card {
+    flex: 1 1 100%;
+  }
+  .banner-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .subscribe-form {
+    flex-direction: column;
+  }
+}
