@@ -699,6 +699,19 @@ nav a.active {
   color: var(--white);
   cursor: pointer;
 }
+.subscribe-form button {
+  padding: 14px 24px;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+}
+.subscribe-form button:hover {
+  opacity: 0.8;
+}
+
 .avatar {
   position: absolute;
   width: 45px;
@@ -934,5 +947,41 @@ footer {
   }
   .subscribe-form {
     flex-direction: column;
+  }
+  .banner-image {
+    margin-left: 0px;
+  }
+  .dots {
+    left: 0px;
+  }
+  .subscribe-form input {
+    width: 100%;
+  }
+  .subscribe-form button {
+    width: 100%;
+  }
+  .avatar {
+    display: none;
+  }
+  .team {
+    justify-content: center;
+  }
+  .team-card {
+    width: 100%;
+  }
+  .blog-card {
+    width: 100%;
+  }
+  .footer-grid {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .subscribe {
+    max-width: 400px;
   }
 }
